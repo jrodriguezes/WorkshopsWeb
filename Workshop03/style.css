@@ -1,0 +1,31 @@
+.Titulo, .Footer, .Especificacion-dia {
+    text-align: center;
+    
+}
+
+.Empresa {
+    text-align: center;
+    font-size: 40px;
+}
+
+.ParrafoPrincipal {
+  max-width: 1000px;         /* Limita el ancho del texto para que no sea tan largo */
+  margin: 30px auto;        /* Centra horizontalmente y le da espacio alrededor */
+  text-align: justify;      /* Hace que el texto tenga bordes alineados a ambos lados */
+  line-height: 1.6;         /* Mejora el espaciado entre líneas para mayor legibilidad */
+  font-size: 18px;          /* Tamaño de letra cómodo para leer */
+  padding: 20px;            /* Espacio interno */
+  background-color: #f9f9f9;/* Fondo suave para resaltar el texto */
+  border-radius: 8px;       /* Bordes redondeados */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil para destacar */
+}
+
+.TituloNoticia {
+    text-align: center;
+}
+
+.ImagenNoticia {
+    display: block;
+    margin: 0 auto;
+}
+
