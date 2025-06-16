@@ -1,0 +1,118 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1, h2, h3, p {
+  margin: 10px 0;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: white;
+  color: black;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  border-radius: 10px;      
+  margin: 5px auto;   /* Centra horizontalmente y le da espacio alrededor */
+}
+
+.hero-content {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.ImagenTelefono {
+  display: flex;
+  justify-content: center;  /* Centra horizontalmente */
+  align-items: center;      /* Centra verticalmente */
+  height: 45vh;        
+}
+
+.cta-button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.phone-images {
+  flex: 1;
+  text-align: center;
+}
+
+.phone-images img {
+  width: 90%;
+  max-width: 250px;
+  margin: 0 10px;
+}
+
+/* Estadisticas Section */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+  background-color: white;
+}
+
+.stat {
+  text-align: center;
+  max-width: 200px;
+}
+
+.stat h3 {
+  font-size: 2rem;
+  color: black;
+}
+
+.stat p {
+  color: #333;
+}
+
+/* Ayuda Section */
+.help {
+  text-align: center;
+  padding: 50px;
+  background-color: #f4f4f4;
+}
+
+.help h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.help p {
+  margin-bottom: 20px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.image-box {
+  background-color: #e0e0e0;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
