@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>El tejaso</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <header>
-        <h1 class="Empresa">El tejaso</h1>
-        <hr>
-        <h2 class="Titulo">Las noticias del dia a dia frente a usted</h2>
+      <h1 class="Empresa">El tejaso</h1>
+      <hr />
+      <h2 class="Titulo">Las noticias del dia a dia frente a usted</h2>
     </header>
 
     <article class="Especificacion-dia">
-        <h2>Noticias ocurridas el dia</h2>
-        <p class="Fecha">08 marzo 2025</p>
+      <h2>Noticias ocurridas el dia</h2>
+      <p class="Fecha">08 marzo 2025</p>
     </article>
 
     <!--card clase para crear contenedores en boostrap con padding  -->
@@ -25,53 +30,92 @@
     <!--aplica sombra alrededor de card-->
     <!-- h-md-250 altura de 250px -->
     <div class="card flex-md-row mb-4 box-shadow h-md-250">
-        <!--Parte interna de card(contenido visual)-->
-        <!--d-flex convierte el div en un contenedor flexible-->
-        <!--flex-column alinea los elementos hijos en columna (verticalmente)-->
-        <!--align-items-start alinea los elementos hijos al inicio del eje horizontal (izquierda)-->
-        <div class="card-body d-flex flex-column align-items-start">
-            <!--d-inline-block Hace que el <strong> sea como un span con propiedades de bloque (puede tener margen, padding, etc.)-->
-            <!--mb-2 Margen inferior de nivel 2.-->
-            <!--text-primary Colorea el texto con el color primario del tema Bootstrap (por defecto es azul)-->
-            <strong class="d-inline-block mb-2 text-primary">Nacional</strong>
-            <h3 class="mb-0">
-                <a class="text-dark" href="#">Accidente automovilistico alrededores de La Fortuna</a>
-            </h3>
-            <!--text-muted color gris claro para que no resalte demasiado.-->
-            <div class="mb-1 text-muted">Mayo 08</div>
-            <!--card-text Clase de Bootstrap para dar estilos al texto dentro de una tarjeta.-->
-            <!--mb-auto Hace que el párrafo ocupe todo el espacio disponible hacia abajo (margen automático), lo que empuja el botón 
+      <!--Parte interna de card(contenido visual)-->
+      <!--d-flex convierte el div en un contenedor flexible-->
+      <!--flex-column alinea los elementos hijos en columna (verticalmente)-->
+      <!--align-items-start alinea los elementos hijos al inicio del eje horizontal (izquierda)-->
+      <div class="card-body d-flex flex-column align-items-start">
+        <!--d-inline-block Hace que el <strong> sea como un span con propiedades de bloque (puede tener margen, padding, etc.)-->
+        <!--mb-2 Margen inferior de nivel 2.-->
+        <!--text-primary Colorea el texto con el color primario del tema Bootstrap (por defecto es azul)-->
+        <strong class="d-inline-block mb-2 text-primary">Nacional</strong>
+        <h3 class="mb-0">
+          <a class="text-dark" href="#"
+            >Accidente automovilistico alrededores de La Fortuna</a
+          >
+        </h3>
+        <!--text-muted color gris claro para que no resalte demasiado.-->
+        <div class="mb-1 text-muted">Mayo 08</div>
+        <!--card-text Clase de Bootstrap para dar estilos al texto dentro de una tarjeta.-->
+        <!--mb-auto Hace que el párrafo ocupe todo el espacio disponible hacia abajo (margen automático), lo que empuja el botón 
             "Continue leyendo" al fondo. Muy útil para alinear elementos dentro de un contenedor flexible.-->
-            <p class="card-text mb-auto">Fallecen 2 personas en un accidente de trafico, 4 quedan gravemente heridos</p>
-            <a href="news.html">Continue leyendo</a>
-        </div>
-        <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="trnsitos-tardan-2-horas-en-llegar-a-un-choque_493943852_760x520.jpg" data-holder-rendered="true" style="width: 200px; height: 250px;">
-        
-        <div class="card-body d-flex flex-column align-items-start">
-            <strong class="d-inline-block mb-2 text-primary">Mundial</strong>
-            <h3 class="mb-0">
-                <a class="text-dark" href="#">Eliminatorias al Mundial del 2026: día, hora y TV de los partidos cruciales de la jornada sudamericana</a>
-            </h3>
-            <div class="mb-1 text-muted">Mayo 08</div>
-            <p class="card-text mb-auto">Colombia disputará su partido contra el seleccionado peruano el viernes a las 3:30 de la tarde en el estadio Roberto Meléndez de Barranquilla.</p>
-            <a href="">Continue leyendo</a>
-        </div>
-        <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="Noticia02.jpeg" data-holder-rendered="true" style="width: 200px; height: 250px;">
-        
-        <div class="card-body d-flex flex-column align-items-start">
-            <strong class="d-inline-block mb-2 text-primary">Nacional</strong>
-            <h3 class="mb-0">
-                <a class="text-dark" href="#">Aspirante a la presidencia de Colombia “superó” con éxito la cirugía tras ser baleado</a>
-            </h3>
-            <div class="mb-1 text-muted">Mayo 08</div>
-            <p class="card-text mb-auto">El aspirante a la presidencia de Colombia que fue baleado el sábado en Bogotá “superó” con éxito una primera cirugía</p>
-            <a href="">Continue leyendo</a>
-        </div>
-        <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="Miguel-Uribe-1024x684.jpg" data-holder-rendered="true" style="width: 200px; height: 250px;">
+        <p class="card-text mb-auto">
+          Fallecen 2 personas en un accidente de trafico, 4 quedan gravemente
+          heridos
+        </p>
+        <a href="news.html">Continue leyendo</a>
+      </div>
+      <img
+        class="card-img-right flex-auto d-none d-md-block"
+        data-src="holder.js/200x250?theme=thumb"
+        alt="Thumbnail [200x250]"
+        src="trnsitos-tardan-2-horas-en-llegar-a-un-choque_493943852_760x520.jpg"
+        data-holder-rendered="true"
+        style="width: 200px; height: 250px"
+      />
+
+      <div class="card-body d-flex flex-column align-items-start">
+        <strong class="d-inline-block mb-2 text-primary">Mundial</strong>
+        <h3 class="mb-0">
+          <a class="text-dark" href="#"
+            >Eliminatorias al Mundial del 2026: día, hora y TV de los partidos
+            cruciales de la jornada sudamericana</a
+          >
+        </h3>
+        <div class="mb-1 text-muted">Mayo 08</div>
+        <p class="card-text mb-auto">
+          Colombia disputará su partido contra el seleccionado peruano el
+          viernes a las 3:30 de la tarde en el estadio Roberto Meléndez de
+          Barranquilla.
+        </p>
+        <a href="">Continue leyendo</a>
+      </div>
+      <img
+        class="card-img-right flex-auto d-none d-md-block"
+        data-src="holder.js/200x250?theme=thumb"
+        alt="Thumbnail [200x250]"
+        src="Noticia02.jpeg"
+        data-holder-rendered="true"
+        style="width: 200px; height: 250px"
+      />
+
+      <div class="card-body d-flex flex-column align-items-start">
+        <strong class="d-inline-block mb-2 text-primary">Nacional</strong>
+        <h3 class="mb-0">
+          <a class="text-dark" href="#"
+            >Aspirante a la presidencia de Colombia “superó” con éxito la
+            cirugía tras ser baleado</a
+          >
+        </h3>
+        <div class="mb-1 text-muted">Mayo 08</div>
+        <p class="card-text mb-auto">
+          El aspirante a la presidencia de Colombia que fue baleado el sábado en
+          Bogotá “superó” con éxito una primera cirugía
+        </p>
+        <a href="">Continue leyendo</a>
+      </div>
+      <img
+        class="card-img-right flex-auto d-none d-md-block"
+        data-src="holder.js/200x250?theme=thumb"
+        alt="Thumbnail [200x250]"
+        src="Miguel-Uribe-1024x684.jpg"
+        data-holder-rendered="true"
+        style="width: 200px; height: 250px"
+      />
     </div>
 
     <footer class="Footer">
-        <p><strong>© El Tejaso. Todos los derechos reservados.</strong></p>
+      <p><strong>© El Tejaso. Todos los derechos reservados.</strong></p>
     </footer>
-</body>
+  </body>
 </html>
