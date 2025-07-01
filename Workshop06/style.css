@@ -1,0 +1,125 @@
+.Nombre {
+    text-align: center;
+    font-size: 125%;
+    margin-top: 15px;
+    color: black;
+}
+
+.Barra {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: black;
+}
+
+.Informacion01,
+.Informacion02 {
+    text-align: center;
+    font-size: 110%;
+}
+
+.Objetivo,
+.Educacion,
+.Experiencia {
+    text-align: center;
+    font-size: 150%;
+    margin-top: 10px;
+    color: black;
+}
+
+.Informacion_Objetivo {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.Universidad {
+    text-align: left;
+    font-size: 100%;
+    color: black;
+    margin-left: 10%;
+}
+
+.Cursa,
+.Graduacion_Esperada,
+.Planeacion,
+.Cursos_Relevantes {
+    text-align: left;
+    font-size: 100%;
+    margin-left: 10%;
+}
+
+.Subtitulo {
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 15px;
+}
+
+.Fecha {
+    font-style: italic;
+    margin-left: 10%;
+    margin-bottom: 5px;
+}
+
+.Lista_Experiencia {
+    margin-left: 10%;
+    margin-right: 10%;
+    list-style-type: disc;
+}
+
+.Ubicacion {
+    float: right;
+    font-style: normal;
+    color: black;
+    margin-right: 11%;
+}
+
+.personal-image {
+    max-height: 250px;
+    justify-content: center;
+    display: flex;
+}
+
+/* breakpoints */
+
+@media only screen and (max-width: 599px) {
+    * {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+    .experience-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .experience-block {
+        padding: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    .persona-image-header {
+        width: 30%;
+        margin-left: 2%;
+    }
+
+    .contenido {
+        width: 70%;
+    }
+
+    .experience-info {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
